@@ -14,7 +14,21 @@
     opacity: 1;
     animation: fadeInUp 1s ease-out;
 }
+/* main.css */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fadeInUp {
+    animation: fadeInUp 0.5s ease-out;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -66,6 +80,8 @@ h2 {
 .demo:hover{
     color:#FDC800;
     background-color: #111827;
+    border: #FDC800 1px solid;
+    border-radius: 5px;
 }
 #intro{
     background-image: url(../Assets/boxstrips.svg);

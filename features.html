@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body class="bg-black">
+<body class="bg-gray-900">
     <header class="w-full py-2 bg-white shadow-md fixed top-0 z-50">
         <nav class="navbar navbar-expand-lg navbar-light container mx-auto flex justify-between items-center px-6">
             <!-- Brand Logo -->
@@ -50,7 +50,7 @@
                     src="https://www.i-startup.tn/Assets/logoname.png" width="98px" alt=""></a>
 
             <!-- Hamburger Menu Button for Mobile -->
-            <button class="navbar-toggler nav-toggle text-gray-700 lg:hidden" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler nav-toggle text-gray-300 lg:hidden" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -64,13 +64,13 @@
             <div class="collapse navbar-collapse lg:flex lg:space-x-6" id="navbarNav">
                 <ul class="navbar-nav ms-auto lg:flex space-x-6">
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700 hover:text-indigo-600" href="index.html">Home</a>
+                        <a class="nav-link text-gray-300 hover:text-yellow-500" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700 hover:text-indigo-600" href="features.html">Features</a>
+                        <a class="nav-link text-gray-300 hover:text-yellow-500" href="features.html">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700 hover:text-indigo-600" href="demo.html">Demo Request</a>
+                        <a class="nav-link text-gray-300 hover:text-yellow-500" href="demo.html">Demo Request</a>
                     </li>
                 </ul>
             </div>
@@ -80,7 +80,7 @@
         <section class="animate__animated animate__fadeIn min-h-screen flex flex-col justify-center items-center py-20">
             <!-- Hero Section -->
             <div class="max-w-4xl mx-auto text-center mb-16 animate__animated animate__fadeIn px-4"> 
-                <h1 class="text-5xl font-bold mb-8 text-white bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">
+                <h1 class="text-5xl font-bold mb-8 text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-500">
                     Transform Your Workspace Today
                 </h1>
                 <p class="text-xl text-gray-300 leading-relaxed mb-8">
@@ -88,87 +88,206 @@
                     experienced the power of our smart solutions.
                 </p>
                 <a href="demo.html"
-                class="mt-12 inline-block btn btn-warning px-8 py-3 rounded-md text-lg font-semibold demo animate__animated animate__fadeInUp animate__delay-8s">Request a Demo</a>
+                class="mt-12 inline-block bg-yellow-500 text-gray-900 px-8 py-3 rounded-md text-lg font-semibold demo animate__animated animate__fadeInUp animate__delay-8s">Request a Demo</a>
             </div>
 
             <!-- Stats Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-16">
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-4xl font-bold text-indigo-400 mb-2">10+</h3>
+                <div class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-4xl font-bold text-yellow-500 mb-2">10+</h3>
                     <p class="text-gray-300">Active Clients</p>
                 </div>
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-4xl font-bold text-indigo-400 mb-2">98%</h3>
+                <div class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-4xl font-bold text-yellow-500 mb-2">98%</h3>
                     <p class="text-gray-300">Satisfaction Rate</p>
                 </div>
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-4xl font-bold text-indigo-400 mb-2">45%</h3>
+                <div class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-4xl font-bold text-yellow-500 mb-2">45%</h3>
                     <p class="text-gray-300">Cost Reduction</p>
                 </div>
             </div>
         </section>
     </main>
-    <section class="my-26 animate__animated animate__fadeIn bg-black">
+    <section class="my-26 animate__animated animate__fadeIn bg-gray-900">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">FEATURING</h2>
+            <h2 class="text-3xl font-bold text-center text-white mb-12">FEATURING</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Digital Transformation -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
-                    <div class="text-indigo-600 mb-4">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
+                    <div class="text-yellow-500 mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Digital Transformation</h3>
-                    <p class="text-gray-600">We transform traditional workspaces into smart, automated environments with
+                    <h3 class="text-xl font-semibold mb-3 text-white">Digital Transformation</h3>
+                    <p class="text-gray-300">We transform traditional workspaces into smart, automated environments with
                         cutting-edge technology solutions.</p>
                 </div>
 
                 <!-- Space Management -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
-                    <div class="text-indigo-600 mb-4">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
+                    <div class="text-yellow-500 mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Space Management</h3>
-                    <p class="text-gray-600">Streamline your operations with our automated booking and scheduling
+                    <h3 class="text-xl font-semibold mb-3 text-white">Space Management</h3>
+                    <p class="text-gray-300">Streamline your operations with our automated booking and scheduling
                         systems for efficient space utilization.</p>
                 </div>
 
                 <!-- Member Experience -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
-                    <div class="text-indigo-600 mb-4">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
+                    <div class="text-yellow-500 mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Member Experience</h3>
-                    <p class="text-gray-600">Enhance member satisfaction with smart access control, automated billing,
+                    <h3 class="text-xl font-semibold mb-3 text-white">Member Experience</h3>
+                    <p class="text-gray-300">Enhance member satisfaction with smart access control, automated billing,
                         and engagement tools.</p>
                 </div>
 
                 <!-- Data Analytics -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
-                    <div class="text-indigo-600 mb-4">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-duration-300">
+                    <div class="text-yellow-500 mb-4">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Smart Analytics</h3>
-                    <p class="text-gray-600">Make data-driven decisions with real-time analytics and automated reporting
+                    <h3 class="text-xl font-semibold mb-3 text-white">Smart Analytics</h3>
+                    <p class="text-gray-300">Make data-driven decisions with real-time analytics and automated reporting
                         systems.</p>
                 </div>
             </div>
         </div>
     </section>
-    <br><br><br>
+    <br><br>
+        <!-- Introduction Section -->
+    <section id="intro" class="py-8 bg-gray-800 text-center animate__animated animate__fadeIn">
+        <div class="container mx-auto px-4">
+                <div class="bg-gray-800 py-20 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl lg:mx-0">
+                            <h2 class="text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">OUR
+                                BLOGS</h2>
+                            <p class="mt-2 text-lg leading-8 text-gray-300">Learn how to grow your business with our
+                                expert advice.</p>
+                        </div>
+                        <div
+                            class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-16" class="text-gray-400">Mar 16, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-700 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-600">Marketing</a>
+                                </div>
+                                <div class="group relative">
+                                    <h3
+                                        class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-gray-300">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            Boost your conversion rate
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-400">Illo sint voluptas.
+                                        Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo
+                                        necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel.
+                                        Iusto corrupti dicta.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="h-10 w-10 rounded-full bg-gray-700">
+                                    <div class="text-sm leading-6">
+                                        <p class="font-semibold text-white">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Michael Foster
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-400">Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-16" class="text-gray-400">Mar 16, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-700 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-600">Marketing</a>
+                                </div>
+                                <div class="group relative">
+                                    <h3
+                                        class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-gray-300">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            Boost your conversion rate
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-400">Illo sint voluptas.
+                                        Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo
+                                        necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel.
+                                        Iusto corrupti dicta.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="h-10 w-10 rounded-full bg-gray-700">
+                                    <div class="text-sm leading-6">
+                                        <p class="font-semibold text-white">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Michael Foster
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-400">Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-16" class="text-gray-400">Mar 16, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-700 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-600">Marketing</a>
+                                </div>
+                                <div class="group relative">
+                                    <h3
+                                        class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-gray-300">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            Boost your conversion rate
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-400">Illo sint voluptas.
+                                        Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo
+                                        necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel.
+                                        Iusto corrupti dicta.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="h-10 w-10 rounded-full bg-gray-700">
+                                    <div class="text-sm leading-6">
+                                        <p class="font-semibold text-white">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Michael Foster
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-400">Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-    <footer class="bg-gray-900 text-gray-400 py-16">
+    <br>
+
+    <footer class="bg-gray-800 text-gray-400 py-16">
         <div class="container mx-auto px-6">
             <!-- Logo on top in phone view -->
             <div class="flex justify-center mb-4 md:hidden">
@@ -179,16 +298,16 @@
             <div class="flex flex-wrap justify-between items-center">
                 <!-- Social links -->
                 <div class="flex space-x-6 mb-4 md:mb-0 text-center px-14">
-                    <a href="https://discord.gg/eETmT344" class="hover:text-white">LinkedIn</a>
-                    <a href="https://discord.gg/eETmT344" class="hover:text-white">Discord</a>
-                    <a href="https://www.instagram.com/i_startup.tn/#" class="hover:text-white">Instagram</a>
+                    <a href="https://discord.gg/eETmT344" class="hover:text-yellow-500">LinkedIn</a>
+                    <a href="https://discord.gg/eETmT344" class="hover:text-yellow-500">Discord</a>
+                    <a href="https://www.instagram.com/i_startup.tn/#" class="hover:text-yellow-500">Instagram</a>
                 </div>
 
                 <!-- Emails -->
                 <center>
                     <div class="flex space-x-4 mb-4 md:mb-0">
-                        <a href="info.client@i-startup.tn" class="hover:text-white">info.client@i-startup.tn</a>
-                        <a href="contact@i-startup.tn" class="hover:text-white">contact@i-startup.tn</a>
+                        <a href="info.client@i-startup.tn" class="hover:text-yellow-500">info.client@i-startup.tn</a>
+                        <a href="contact@i-startup.tn" class="hover:text-yellow-500">contact@i-startup.tn</a>
                     </div>
                 </center>
 
