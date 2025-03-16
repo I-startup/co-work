@@ -76,22 +76,9 @@
             </div>
         </nav>
     </header>
-
-    <style>
-        #home {
-            background-image: url(https://i-startup.tn/Assets/index.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-blend-mode: color-burn;
-        }
-
-        #home a:hover {
-            scale: 1.1;
-        }
-    </style>
-
+    
     <!-- Hero Section -->
-    <section id="home" class="bg-gray-900 text-white h-screen flex flex-col justify-center items-center text-center pt-24 animate__animated animate__fadeIn px-8">
+    <section id="home" class="bg-gray-900/50 text-white h-screen flex flex-col justify-center items-center text-center pt-24 animate__animated animate__fadeIn px-8">
         <h1 class="text-5xl font-bold mb-4"> Transform Your Workspace Experience</h1>
         <p class="text-lg mb-8">Automate your coworking space with intelligent booking, member management, and
             engagement tools</p>
@@ -182,7 +169,7 @@
     <section class="bg-gray-900 py-16">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center mb-12 text-white">Why Leading Workspaces Choose Us</h2>
+                <h2 class="text-3xl font-bold text-center mb-12 text-white">Achieving</h2>
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-gray-700 p-6 rounded-lg shadow-md">
                         <h3 class="text-xl font-semibold mb-4 text-yellow-500">Operational Excellence</h3>
@@ -224,7 +211,7 @@
     </section>
 
     <br><br><br>
-    <section style="background-color: #111827;margin-top: -100px;padding-top: 50px;" class="py-16 animate__animated animate__fadeIn">
+    <section style="margin-top: -100px;padding-top: 50px;" class="bg-gray-900 py-16 animate__animated animate__fadeIn">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-white mb-12">Our Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -271,7 +258,7 @@
             </div>
         </div>
         <div class="max-w-7xl mx-auto p-8 lg:flex lg:items-center">
-            <div class="lg:w-1/2">
+            <div class="lg:w-1/2 bg-gray-700 ">
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80"
                     alt="Background Image"
                     class="w-xl h-100 object-cover rounded-lg lg:rounded-none lg:rounded-tl-lg lg:rounded-bl-lg">
@@ -299,38 +286,58 @@
                 class="mt-12 inline-block bg-yellow-500 text-gray-900 px-8 py-3 rounded-md text-lg font-semibold demo animate__animated animate__fadeInUp animate__delay-8s">Request a Demo</a>
         </center>
         <br><br><br>
-
-        <footer class="text-gray-400 py-8">
-            <div class="container mx-auto px-6">
-                <!-- Logo on top in phone view -->
-                <div class="flex justify-center mb-4 md:hidden">
-                    <img src="https://www.i-startup.tn/Assets/logocon-full-empty.png" alt="I-StartUp Logo" class="h-18 w-18">
+    </section>
+    <footer class="bg-[#001d3d] text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center space-y-8">
+                <!-- Logo for all views -->
+                <div class="flex justify-center">
+                    <img src="https://www.i-startup.tn/Assets/logocon-full-empty.png" 
+                         alt="I-StartUp Logo" 
+                         class="h-16 w-auto">
                 </div>
-
-                <div class="flex flex-wrap justify-between items-center">
-                    <!-- Social links -->
-                    <div class="flex space-x-6 mb-4 md:mb-0 text-center px-14">
-                        <a href="https://discord.gg/eETmT344" class="hover:text-yellow-500">LinkedIn</a>
-                        <a href="https://discord.gg/eETmT344" class="hover:text-yellow-500">Discord</a>
-                        <a href="https://www.instagram.com/i_startup.tn/#" class="hover:text-yellow-500">Instagram</a>
-                    </div>
-
-                    <!-- Emails -->
-                    <center>
-                        <div class="flex space-x-4 mb-4 md:mb-0">
-                            <a href="info.client@i-startup.tn" class="hover:text-yellow-500">info.client@i-startup.tn</a>
-                            <a href="contact@i-startup.tn" class="hover:text-yellow-500">contact@i-startup.tn</a>
+    
+                <!-- Links Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl text-center">
+                    <!-- Social Links -->
+                    <div class="space-y-4">
+                        <h3 class="text-[#ffd60a] font-semibold mb-4">Connect With Us</h3>
+                        <div class="flex justify-center space-x-6">
+                            <a href="https://www.linkedin.com/" class="hover:text-[#ffd60a] transition-colors">LinkedIn</a>
+                            <a href="https://discord.gg/eETmT344" class="hover:text-[#ffd60a] transition-colors">Discord</a>
+                            <a href="https://www.instagram.com/i_startup.tn/#" class="hover:text-[#ffd60a] transition-colors">Instagram</a>
                         </div>
-                    </center>
-
-                    <!-- Copyright -->
-                    <div class="w-full md:w-auto mb-4 md:mb-0">
-                        <p class="text-center md:text-left">© 2025 I-StartUp. All rights reserved.</p>
                     </div>
+    
+                    <!-- Contact Info -->
+                    <div class="space-y-4">
+                        <h3 class="text-[#ffd60a] font-semibold mb-4">Contact Us</h3>
+                        <div class="flex flex-col space-y-2">
+                            <a href="mailto:info.client@i-startup.tn" class="hover:text-[#ffd60a] transition-colors">info.client@i-startup.tn</a>
+                            <a href="mailto:contact@i-startup.tn" class="hover:text-[#ffd60a] transition-colors">contact@i-startup.tn</a>
+                        </div>
+                    </div>
+    
+                    <!-- Quick Links -->
+                    <div class="space-y-4">
+                        <h3 class="text-[#ffd60a] font-semibold mb-4">Quick Links</h3>
+                        <div class="flex flex-col space-y-2">
+                            <a href="features.html" class="hover:text-[#ffd60a] transition-colors">Features</a>
+                            <a href="demo.html" class="hover:text-[#ffd60a] transition-colors">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Divider -->
+                <div class="w-full max-w-4xl border-t border-gray-700 my-8"></div>
+    
+                <!-- Copyright -->
+                <div class="text-center">
+                    <p>© 2025 I-StartUp. All rights reserved.</p>
                 </div>
             </div>
-        </footer>
-    </section>
+        </div>
+    </footer>
 
     <!-- Bootstrap and Animate.js Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
