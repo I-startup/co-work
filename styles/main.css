@@ -36,7 +36,7 @@ body {
     background-image: linear-gradient(
         var(--overlay-dark),
         var(--overlay-darker)
-    ), url(https://hubble.imgix.net/listings/uploads/spaces/11119/Screenshot_2023-04-04_at_15.36.42.png?auto=format%2Ccompress&dpr=2&q=30&w=992);
+    ), url(https://co-work.i-startup.tn/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
