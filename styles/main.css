@@ -84,6 +84,10 @@ footer h3{
 .animate-on-scroll {
     opacity: 0;
 }
+hr{
+    border: 1px solid var(--primary-color);
+    width: 50%;
+}
 
 .animate-in-view {
     opacity: 1;
