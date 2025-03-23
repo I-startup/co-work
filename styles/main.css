@@ -151,3 +151,8 @@ body::after {
     transform: translateY(-5px);
     box-shadow: var(--shadow-md);
 }
+footer a:hover {
+    color: #ffd60a;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
