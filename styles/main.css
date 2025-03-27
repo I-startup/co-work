@@ -126,6 +126,45 @@ body::after {
     0% { background-position: 0 0; }
     100% { background-position: 1000px 1000px; }
 }
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-from-right {
+    animation: slideFromRight 1s ease-out forwards;
+    opacity: 0;
+}
+
+.slide-from-left {
+    animation: slideFromLeft 1s ease-out forwards;
+    opacity: 0;
+}
+
+.image-container {
+    opacity: 0;
+}
+
+.image-container.visible {
+    opacity: 1;
+}
 
 /* Media Queries */
 @media (max-width: 700px) {

@@ -8,6 +8,30 @@ document.addEventListener('scroll', () => {
     });
 });
 
+    function handleIntersection(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const direction = entry.target.getAttribute('data-slide');
+                entry.target.classList.add(direction === 'right' ? 'slide-from-right' : 'slide-from-left');
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }
+
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver(handleIntersection, {
+        threshold: 0.1,
+        rootMargin: '0px'
+    });
+
+    // Observe all image containers
+    document.addEventListener('DOMContentLoaded', () => {
+        const images = document.querySelectorAll('.image-container');
+        images.forEach(image => observer.observe(image));
+    });
+    
+
 document.addEventListener("DOMContentLoaded", function() {
     const featureDescriptions = document.querySelectorAll(".text-gray-300.text-lg.leading-relaxed");
 
