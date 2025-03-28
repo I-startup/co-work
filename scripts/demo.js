@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => {
                 // Handle response here
                 Swal.fire({
-                    imageUrl: "https://i-startup.tn//logocon-full.png",
+                    imageUrl: "https://i-startup.tn/logocon-full.png",
                     imageAlt: "Custom Success Icon",
                     title: 'Success!',
                     text: 'Your message is sent. Thank you for reaching out.',
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     showConfirmButton: false,
                     allowOutsideClick: false,
                     color: "#000",
-                    background: "#63ddff",
+                    background: "#001d3d",
                     backdrop: "rgba(0,0,0,0.4)",
                 }).then(() => {
                     form.submit();
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => {
                 console.error('Error!', error.message);
                 Swal.fire({
-                    imageUrl: "https://i-startup.tn//logocon-full.png",
+                    imageUrl: "https://i-startup.tn/logocon-full.png",
                     imageAlt: "Custom Success Icon",
                     title: 'Success!',
                     text: 'Your message is sent. Thank you for reaching out.',
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     showConfirmButton: false,
                     allowOutsideClick: false,
                     color: "#000",
-                    background: "#63ddff",
+                    background: "#001d3d",
                     backdrop: "rgba(0,0,0,0.4)",
                 }).then(() => {
                     form.submit();

@@ -74,41 +74,217 @@
         </nav>
     </header>
     <!-- Main Content -->
-    <section id="contact" class="py-24 bg-gray-800 text-center pt-32">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold mb-10 animate__animated animate__fadeInUp">Book a Demo</h2>
-
-        <center>
-            <form method="post" id="contact-form" class="contact-form animate__animated animate__fadeInUp max-w-md">
-                <section class="container mx-auto px-6">
-                    <div class="bg-gray-800 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl animate__animated animate__fadeInUp animate__delay-1s">
-                        <h2 class=" font-manrope text-4xl font-semibold leading-10 mb-11 fade-in-up"
-                            style="color: #ffffff">Send us a message</h2>
-                        <input type="text"
-                            class="w-full h-12 text-blue-600 placeholder-blue-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Name " name="name">
-                        <input type="text"
-                            class="w-full h-12 text-blue-600 placeholder-blue-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Subject " name="subject">
-                        <input type="tel"
-                            class="w-full h-12 text-blue-600 placeholder-blue-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-blue-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Contact Number " name="number">
-                        <input type="email"
-                            class="w-full h-12 text-blue-600 placeholder-blue-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Email " name="email">
-                        <textarea type="text"
-                            class="w-full h-12 text-blue-600 placeholder-blue-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-lg border border-blue-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Message" name="message" cols="16" rows="10"></textarea>
-                        <button type="submit" id="send"
-                            class="w-full h-12 text-white bg-blue-500 font-semibold leading-6 rounded-lg transition-all duration-700 hover:bg-blue-700 shadow-sm">Send</button>
+    <section id="contact" class="py-24 bg-gray-900">
+        <main class="bg-gray-900 justify-center items-center py-20 min-h-screen" style="background-image: url('https://productive.io/wp-content/uploads/2021/09/Questions_-Weve-Got-Answers.svg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; ">
+            <section class="animate__animated animate__fadeIn min-h-[60vh] flex flex-col justify-center items-center py-12 sm:py-20 relative z-10">
+                <!-- Hero Section -->
+                <div class="max-w-4xl mx-auto text-center mb-12 sm:mb-16 px-4 sm:px-6">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 sm:mb-8 text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-500">
+                        Book a Demo
+                    </h1>
+                    <h6 class="text-lg sm:text-xl text-gray-300 mb-8 sm:mb-10 max-w-3xl mx-auto">
+                        Experience firsthand how I-StartUp can transform your business. Request a personalized demo and see how we can help turn your startup vision into reality.
+                    </h6>
+                    
+                    <!-- CTA Button -->
+                    <button class="mt-4 inline-block bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-300 hover:to-yellow-400 text-gray-900 px-8 py-3 rounded-lg text-lg font-bold shadow-lg transform transition-all duration-300 hover:scale-105">
+                        <a href="#plans">Schedule Your Demo</a> 
+                    </button>
+                </div>
+            </section>
+        </main>
+        
+        <style>
+            @media (max-width: 640px) {
+                main {
+                    background-attachment: scroll !important;
+                }
+            }
+        </style>
+        
+        <section class="py-48 bg-gray-00/50 min-h-screen" id="plans">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-16 text-center text-yellow-400 animate__animated animate__fadeInUp">Choose Your Plan</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Basic Plan -->
+                    <div class="bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 animate__animated animate__fadeInLeft border border-blue-600">
+                        <h2 class="text-2xl font-bold text-yellow-400 mb-4">Basic Plan</h2>
+                        <div class="text-4xl font-bold text-white mb-6">$99<span class="text-lg">/month</span></div>
+                        <ul class="mb-8 space-y-4 text-gray-200">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Basic Consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>5 Hours Support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Basic Analytics</span>
+                            </li>
+                        </ul>
+                        <button onclick="selectPlan('Basic Plan')" class="w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 rounded-lg transition-colors duration-300">
+                            Select Plan
+                        </button>
                     </div>
-                </section>
-            </form>
+    
+                    <!-- Professional Plan (Highlighted) -->
+                    <div class="bg-gray-700 rounded-xl shadow-2xl p-8 transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInUp border-2 border-yellow-400 relative">
+                        <div class="absolute -top-3 -right-3 bg-yellow-400 text-gray-900 font-bold px-3 py-1 rounded-full text-sm">
+                            POPULAR
+                        </div>
+                        <h2 class="text-2xl font-bold text-yellow-400 mb-4">Professional</h2>
+                        <div class="text-4xl font-bold text-white mb-6">$199<span class="text-lg">/month</span></div>
+                        <ul class="mb-8 space-y-4 text-gray-200">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Advanced Consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>20 Hours Support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Full Analytics Suite</span>
+                            </li>
+                        </ul>
+                        <button onclick="selectPlan('Professional Plan')" class="w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 rounded-lg transition-colors duration-300">
+                            Select Plan
+                        </button>
+                    </div>
+    
+                    <!-- Enterprise Plan -->
+                    <div class="bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 animate__animated animate__fadeInRight border border-blue-600">
+                        <h2 class="text-2xl font-bold text-yellow-400 mb-4">Enterprise</h2>
+                        <div class="text-4xl font-bold text-white mb-6">$399<span class="text-lg">/month</span></div>
+                        <ul class="mb-8 space-y-4 text-gray-200">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Premium Consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Unlimited Support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-yellow-400 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span>Custom Solutions</span>
+                            </li>
+                        </ul>
+                        <button onclick="selectPlan('Enterprise Plan')" class="w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 rounded-lg transition-colors duration-300">
+                            Select Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-20 bg-gray-9=00">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-16 text-center text-yellow-400 animate__animated animate__fadeInUp">Why Choose Our Service?</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Feature 1 -->
+                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 animate__animated animate__fadeInUp border border-blue-600">
+                        <div class="text-yellow-400 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-yellow-400">Fast Implementation</h3>
+                        <p class="text-gray-300">Get your business up and running quickly with our streamlined onboarding process.</p>
+                    </div>
+    
+                    <!-- Feature 2 -->
+                   <div class="bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 animate__animated animate__fadeInUp border border-blue-600">
+                        <div class="text-yellow-400 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-yellow-400">Expert Guidance</h3>
+                        <p class="text-gray-300">Access to seasoned startup experts with proven track records in various industries.</p>
+                    </div>
+    
+                    <!-- Feature 3 -->
+                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 animate__animated animate__fadeInUp border border-blue-600">
+                        <div class="text-yellow-400 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-yellow-400">Cost Effective</h3>
+                        <p class="text-gray-300">Maximize your startup budget with our affordable yet comprehensive service packages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 sm:px-6 py-8 sm:py-16 bg-gray-800 sm:rounded-xl shadow-md sm:shadow-lg border border-gray-900">
+            <h2 class="text-4xl font-bold mb-8 text-center text-yellow-400 animate__animated animate__fadeInUp">Get in Touch</h2>
+            <p class="text-lg text-gray-300 mb-8 text-center">Have questions or need more information? Fill out the form below, and our team will get back to you shortly.</p>
             <center>
-                <h3 class="bg-gray-100 max-w-lg p-6 ">Feel free to email us for a 1 on 1 conversation we mean to initialize contact with
-                    our customers to gain trust</h3>
-        </center>
+                <form method="post" id="contact-form" class="contact-form animate__animated animate__fadeInUp max-w-6xl mx-auto">
+                    <section class="container mx-auto px-6 py-16">
+                        <div class="flex flex-col lg:flex-row gap-8">
+                            <!-- Image Column (hidden on mobile) -->
+                            <div class="hidden lg:block lg:w-1/2">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="Contact Us" 
+                                     class="w-full h-full object-cover rounded-l-2xl shadow-lg">
+                            </div>
+                            
+                            <!-- Form Column -->
+                            <div class="w-full lg:w-1/2 bg-gray-800 lg:rounded-r-2xl rounded-2xl p-8 animate__animated animate__fadeInUp">
+                                <input type="text"
+                                    class="w-full h-12 text-white placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-600 focus:outline-none pl-4 mb-6"
+                                    placeholder="Name" name="name">
+                                <input type="text" id="subject-field"
+                                    class="w-full h-12 text-white placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-600 focus:outline-none pl-4 mb-6"
+                                    placeholder="Plan: Select one 😉" name="subject" readonly>
+                                <input type="tel"
+                                    class="w-full h-12 text-white placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-600 focus:outline-none pl-4 mb-6"
+                                    placeholder="Contact Number" name="number">
+                                <input type="email"
+                                    class="w-full h-12 text-white placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-lg border border-blue-600 focus:outline-none pl-4 mb-6"
+                                    placeholder="Email" name="email">
+                                <textarea type="text"
+                                    class="w-full h-32 text-white placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-lg border border-blue-600 focus:outline-none pl-4 mb-6"
+                                    placeholder="Message" name="message" cols="16" rows="10"></textarea>
+                                <button type="submit" id="send"
+                                    class="w-full h-12 text-white bg-blue-600 font-semibold leading-6 rounded-lg transition-all duration-700 hover:bg-blue-700 shadow-sm mb-6">Send</button>
+                                
+                                <div class="bg-gray-700 text-gray-300 p-6 border border-blue-600 rounded-lg">
+                                    <p>Feel free to email us for a 1 on 1 conversation. We mean to initialize contact with our customers to gain trust.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </form>
+            </center>
+        </section>
     </section>
+    
     <footer class="bg-gray-900 text-gray-300">
         <div class="container mx-auto px-4">
             <div class="flex flex-col py-12 items-center space-y-8">
@@ -123,7 +299,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl text-center">
                     <!-- Social Links -->
                     <div class="space-y-4">
-                        <h3 class="text-[#ffd60a] font-semibold mb-4">Connect With Us</h3>
+                        <h2 class="text-[#ffd60a] font-semibold mb-4">Connect With Us</h2>
                         <div class="flex justify-center space-x-6">
                             <a href="https://www.linkedin.com/" class="hover:text-[#ffd60a] transition-colors">LinkedIn</a>
                             <a href="https://discord.gg/eETmT344" class="hover:text-[#ffd60a] transition-colors">Discord</a>
@@ -133,7 +309,7 @@
     
                     <!-- Contact Info -->
                     <div class="space-y-4">
-                        <h3 class="text-[#ffd60a] font-semibold mb-4">Contact Us</h3>
+                        <h2 class="text-[#ffd60a] font-semibold mb-4">Contact Us</h2>
                         <div class="flex flex-col space-y-2">
                             <a href="mailto:info.client@i-startup.tn" class="hover:text-[#ffd60a] transition-colors">info.client@i-startup.tn</a>
                             <a href="mailto:contact@i-startup.tn" class="hover:text-[#ffd60a] transition-colors">contact@i-startup.tn</a>
@@ -142,7 +318,7 @@
     
                     <!-- Quick Links -->
                     <div class="space-y-4">
-                        <h3 class="text-[#ffd60a] font-semibold mb-4">Quick Links</h3>
+                        <h2 class="text-[#ffd60a] font-semibold mb-4">Quick Links</h2>
                         <div class="flex flex-col space-y-2">
                             <a href="features.html" class="hover:text-[#ffd60a] transition-colors">Features</a>
                             <a href="demo.html" class="hover:text-[#ffd60a] transition-colors">Request Demo</a>

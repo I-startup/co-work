@@ -31,6 +31,16 @@ document.addEventListener('scroll', () => {
         images.forEach(image => observer.observe(image));
     });
     
+    function scrollToForm() {
+        document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    function selectPlan(planName) {
+        const subjectField = document.getElementById('subject-field');
+        subjectField.value = 'Plan: ' + planName;
+        scrollToForm();
+        subjectField.focus();
+    }
 
 document.addEventListener("DOMContentLoaded", function() {
     const featureDescriptions = document.querySelectorAll(".text-gray-300.text-lg.leading-relaxed");
