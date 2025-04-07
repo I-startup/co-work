@@ -76,7 +76,7 @@
     </header>
     
     <!-- Hero Section -->
-    <section id="home" class="bg-gray-900/50 text-white h-screen flex flex-col justify-center items-center text-center pt-24 animate__animated animate__fadeIn px-8">
+    <section id="home" class="bg-gray-900/50 text-white h-screen flex flex-col justify-center items-center text-center pt-24 animate__animated animate__fadeIn px-8 relative">
         <h1 class="text-5xl font-bold mb-4"> Transform Your Workspace Experience</h1>
         <p class="text-lg mb-8">Automate your coworking space with intelligent booking, member management, and
             engagement tools</p>
@@ -87,9 +87,19 @@
                 class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-md text-lg font-semibold"
                 style="margin-top: 10px;">Request Demo</a>
         </div>
+        
+        <!-- Scroll Down Button -->
+        <div class="absolute bottom-8 animate-bounce cursor-pointer" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})">
+            <center>
+                <svg class="w-6 h-6 text-white" fill="yellow" stroke="black" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+                </svg>
+            </center>
+            <span class="text-sm mt-2 block">Scroll Down</span>
+        </div>
     </section>
 
-    <section class="py-16 animate__animated animate__fadeIn bg-gray-800">
+    <section class="py-36 animate__animated animate__fadeIn bg-gradient from-blue-800 to-gray-800">
         <div class="container mx-auto px-4">
             <!-- Introduction -->
             <div class="max-w-4xl mx-auto text-center mb-16">
