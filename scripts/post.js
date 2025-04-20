@@ -22,7 +22,7 @@ document.addEventListener('alpine:init', () => {
                     <h2 class="text-2xl font-bold text-yellow-400 mt-8">Smarter Space Management</h2>
                     <p class="text-gray-300">Managers now have access to real-time data on how spaces are used. Whether it’s desk utilization or meeting room turnover, tools like <a href="https://www.officernd.com/" target="_blank" class="text-yellow-400 underline">OfficeRnD</a> and <a href="https://nexudus.com" target="_blank" class="text-yellow-400 underline">Nexudus</a> offer detailed insights that help optimize layouts, prevent bottlenecks, and improve flow.</p>
 
-                    <img src="https://images.unsplash.com/photo-1560264280-88b68371db39?auto=format&fit=crop&w=1200&q=80" alt="Workspace management dashboard" class="rounded-xl shadow-md w-full my-4">
+                    <img src="https://images.unsplash.com/photo-1517502884422-41eaead166d4" alt="Workspace management dashboard" class="rounded-xl shadow-md w-full my-4">
 
                     <h2 class="text-2xl font-bold text-yellow-400">Dynamic Booking Systems</h2>
                     <p class="text-gray-300">Gone are the days of manual scheduling. Modern coworking spaces use smart booking platforms that:</p>
@@ -66,7 +66,7 @@ document.addEventListener('alpine:init', () => {
                 `,
                 date: 'April 18, 2025',
                 category: 'trends',
-                image: 'https://images.unsplash.com/photo-1517502884422-41eaead166d4',
+                image: 'https://images.unsplash.com/photo-1560264280-88b68371db39?auto=format&fit=crop&w=1200&q=80',
                 author: 'Sarah Johnson',
                 readTime: '5 min read'
 
@@ -136,6 +136,65 @@ document.addEventListener('alpine:init', () => {
             },
             {
                 id: 3,
+                title: 'Why Every Coworking Space Needs a Smart Booking Page',
+                excerpt: 'Your coworking space isn’t truly modern without an efficient, real-time booking system. Here’s why it matters—and how Co-Work makes it effortless.',
+                content: `
+                <div class="space-y-6 max-w-4xl mx-auto">
+                    <h1 class="text-3xl font-bold text-yellow-400 mb-6">Why Every Coworking Space Needs a Smart Booking Page</h1>
+                
+                    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1200&q=80" alt="Modern coworking booking interface" class="rounded-xl shadow-md w-full">
+                
+                    <p class="text-gray-300">Imagine this: a potential customer visits your coworking space's website late at night, ready to book a meeting room for tomorrow morning. But there’s no booking page—just a contact form. Chances are, they’ll move on to the next space that offers instant online booking.</p>
+                
+                    <p class="text-gray-300">In today’s fast-paced world, an efficient booking system isn't just a nice add-on—it's essential. And with Co-Work’s smart Booking Page, the entire process becomes easy, intuitive, and lightning-fast.</p>
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Simplified Reservations</h2>
+                    <p class="text-gray-300">Our Booking Page is designed to make life easier—for both you and your members. With just a few clicks, users can:</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Browse available rooms, desks, and amenities</li>
+                    <li>Select a time slot and preferred services</li>
+                    <li>Confirm and pay—without needing to call or email</li>
+                    </ul>
+                
+                    <img src="https://images.unsplash.com/photo-1590487988250-090e7bfe9d47?auto=format&fit=crop&w=1200&q=80" alt="Coworking space room booking UI" class="rounded-xl shadow-md w-full my-4">
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Real-Time Availability</h2>
+                    <p class="text-gray-300">No more double-booked rooms or awkward scheduling overlaps. Co-Work's platform shows real-time availability, ensuring customers can only reserve what’s actually open—giving them confidence and saving your team time.</p>
+                
+                    <blockquote class="border-l-4 border-yellow-400 pl-4 my-6">
+                    <p class="text-gray-300 italic">“Since adding the booking page, we’ve seen a 30% increase in meeting room reservations—most of them outside of office hours.” — coworking operator, Tunis</p>
+                    </blockquote>
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Seamless Integration</h2>
+                    <p class="text-gray-300">Your calendar, your payments, your rules. Co-Work's Booking Page integrates directly with your existing tools:</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Google Calendar or Outlook for automatic syncing</li>
+                    <li>Stripe or PayPal for instant online payments</li>
+                    <li>Internal CRM to track customer preferences</li>
+                    </ul>
+                
+                    <img src="https://images.unsplash.com/photo-1632151776932-6df5c2f4d1b9?auto=format&fit=crop&w=1200&q=80" alt="Calendar and payments integration" class="rounded-xl shadow-md w-full my-4">
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Offer Highlight: Co-Work Booking Page</h2>
+                    <p class="text-gray-300">Co-Work’s Booking Page is not just software—it’s your new silent team member. Whether you're managing a shared office in downtown Tunis or a creative hub in Sousse, this tool helps you:</p>
+                    <ol class="list-decimal list-inside text-gray-300 space-y-2">
+                    <li>Reduce admin time with automated scheduling</li>
+                    <li>Increase bookings with 24/7 access</li>
+                    <li>Deliver a smoother experience for new and returning members</li>
+                    </ol>
+                
+                    <p class="text-gray-300 mt-4">Ready to make booking as easy as it should be? <a href="#contact" class="text-yellow-400 underline">Get in touch</a> and we’ll help you set it up in no time.</p>
+                </div>
+                `,
+                date: 'April 20, 2025',
+                category: 'features',
+                image: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7',
+                author: 'Sarah Johnson',
+                readTime: '4 min read'
+
+            },
+            {
+                id: 4,
                 title: 'Building Community in Coworking Spaces',
                 excerpt: 'Effective strategies for fostering collaboration and networking in shared workspaces.',
                 content: `
