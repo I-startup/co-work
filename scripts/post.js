@@ -73,40 +73,65 @@ document.addEventListener('alpine:init', () => {
             },
             {
                 id: 2,
-                title: 'Maximizing Workspace Efficiency',
-                excerpt: 'Learn practical tips and strategies for optimizing your coworking space layout and resource utilization.',
+                title: 'How Smart Analytics and Automated Marketing Can Transform Your Coworking Space',
+                excerpt: 'Learn how coworking managers can turn data into real growth using intelligent analytics, member insights, and personalized email campaigns.',
                 content: `
-                    <div class="space-y-6  max-w-4xl mx-auto">
-                        <h1 class="text-3xl font-bold text-yellow-400 mb-6">Maximizing Workspace Efficiency</h1>
-                        
-                        <p class="text-gray-300">Optimizing workspace efficiency is crucial for modern coworking spaces. Here are key strategies:</p>
-                        
-                        <h2 class="text-2xl font-bold text-yellow-400">Space Planning Fundamentals</h2>
-                        <ul class="list-disc list-inside text-gray-300 space-y-2">
-                            <li>Strategic furniture placement</li>
-                            <li>Flexible workstation design</li>
-                            <li>Traffic flow optimization</li>
-                            <li>Multi-purpose areas</li>
-                        </ul>
-                        
-                        <div class="bg-gray-700 p-4 rounded-lg my-6">
-                            <h3 class="text-yellow-400 font-bold mb-2">Pro Tip:</h3>
-                            <p class="text-gray-300">Use heat mapping tools to identify underutilized areas and optimize space allocation.</p>
-                        </div>
-
-                        <h2 class="text-2xl font-bold text-yellow-400">Resource Management</h2>
-                        <p class="text-gray-300">Key aspects of resource management include:</p>
-                        <ul class="list-disc list-inside text-gray-300 space-y-2">
-                            <li>Smart booking systems</li>
-                            <li>Utilization tracking</li>
-                            <li>Automated maintenance schedules</li>
-                            <li>Energy consumption monitoring</li>
-                        </ul>
-                    </div>`,
-                date: 'April 15, 2025',
-                category: 'tips',
-                image: 'https://images.unsplash.com/photo-1497366216548-37526070297c',
-                author: 'Michael Chen',
+                <div class="space-y-6 max-w-4xl mx-auto">
+                    <h1 class="text-3xl font-bold text-yellow-400 mb-6">How Smart Analytics and Automated Marketing Can Transform Your Coworking Space</h1>
+                
+                    <img src="https://www.servcorp.co.uk/media/35868/collaborative-workspace.jpg?format=webp&quality=70&width=688" alt="Analytics dashboard in a coworking office" class="rounded-xl shadow-md w-full">
+                
+                    <p class="text-gray-300">Coworking spaces are no longer just about desks and Wi-Fi—they're ecosystems. And managing that ecosystem effectively means knowing what works, what doesn’t, and what your members truly need. That’s where smart analytics and automated marketing come in.</p>
+                
+                    <h2 class="text-2xl font-bold text-yellow-400 mt-8">Smart Analytics: Turn Data into Revenue</h2>
+                    <p class="text-gray-300">Understanding how people use your space isn’t just nice to know—it’s key to growth. Our built-in analytics engine tracks:</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Desk and room usage patterns over time</li>
+                    <li>Peak and off-peak occupancy</li>
+                    <li>Member engagement across amenities</li>
+                    </ul>
+                    <p class="text-gray-300">With these insights, you can optimize layout, fine-tune pricing, and know exactly when to promote offers—or hold back.</p>
+                
+                    <img src="https://landing.spaces.nexudus.com/en/Blog/GetImage?id=1414987376&w=600h=314&mode=Pad" alt="Heatmap and member analytics example" class="rounded-xl shadow-md w-full my-4">
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Automated Email Marketing</h2>
+                    <p class="text-gray-300">Manually managing email lists? That’s so 2020. Our system automatically segments your members by criteria like:</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Occupation</li>
+                    <li>Length of membership</li>
+                    <li>Preferred working hours</li>
+                    </ul>
+                    <p class="text-gray-300">Based on this, it sends personalized promotions and updates—without you lifting a finger. Think:</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Special offers during low-occupancy periods</li>
+                    <li>Event invites tailored to professional interests</li>
+                    <li>Celebratory discounts for work anniversaries or birthdays</li>
+                    </ul>
+                
+                    <img src="https://cdn.prod.website-files.com/66eb111e36b3aae39f5c0cb2/6777bc2d3405bc8c8b845b32_674af58b8577b80adf77ea3a_Sl%2520No%252011.png" alt="Coworking email marketing on laptop" class="rounded-xl shadow-md w-full my-4">
+                
+                    <blockquote class="border-l-4 border-yellow-400 pl-4 my-6">
+                    <p class="text-gray-300 italic">“We used to send one-size-fits-all emails. Now our members get emails that actually matter to them—and our response rates doubled.” — coworking manager, Sfax</p>
+                    </blockquote>
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Why This Matters</h2>
+                    <p class="text-gray-300">By connecting smart analytics with personalized outreach, coworking managers can:</p>
+                    <ol class="list-decimal list-inside text-gray-300 space-y-2">
+                    <li>Boost engagement during slow hours</li>
+                    <li>Retain members with offers that feel personal</li>
+                    <li>Identify underused areas or services for rework</li>
+                    </ol>
+                
+                    <p class="text-gray-300">This isn’t just about tech—it’s about understanding your community and meeting their needs before they even ask.</p>
+                
+                    <h2 class="text-2xl font-bold text-yellow-400">Want to See It in Action?</h2>
+                    <p class="text-gray-300">Check out tools like <a href="https://nexudus.com/" target="_blank" class="text-yellow-400 underline">Nexudus</a>, <a href="https://www.officernd.com/" target="_blank" class="text-yellow-400 underline">OfficeRnD</a>, or <a href="https://mailchimp.com/" target="_blank" class="text-yellow-400 underline">Mailchimp</a> integrations to start turning your data into growth.</p>
+                </div>
+                `,
+                date: 'April 20, 2025',
+                category: 'growth',
+                image: 'https://a-us.storyblok.com/f/1018383/4321x1801/d6210ce438/herobgimg-3x.jpg/m/1600x0',
+                author: 'Sarah Johnson',
                 readTime: '4 min read'
             },
             {
