@@ -97,14 +97,58 @@
                     <span class="text-gray-300" x-text="post.author"></span>
                 </div>
                 <img :src="post.image" :alt="post.title" class="w-full h-96 object-cover rounded-lg mb-8">
-                <div class="text-gray-300 space-y-6" x-html="post.content"></div>
-                <div class="mt-12 pt-8 border-t border-gray-700">
-                    <a href="blog.html" class="text-yellow-400 hover:text-yellow-300 flex items-center">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                <div class="text-gray-300 space-y-6 max-w-[900px]" x-html="post.content"></div>
+                <div class="mt-12 pt-8 border-t border-gray-700 flex justify-between items-center">
+                    <a href="blog.html" 
+                       class="text-yellow-400 hover:text-yellow-300 flex items-center group">
+                        <svg class="w-5 h-5 mr-2 transform transition-transform duration-300 group-hover:-translate-x-1" 
+                             fill="none" 
+                             stroke="currentColor" 
+                             viewBox="0 0 24 24">
+                            <path stroke-linecap="round" 
+                                  stroke-linejoin="round" 
+                                  stroke-width="2" 
+                                  d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                            </path>
                         </svg>
                         Back to Blog
                     </a>
+                
+                    <div class="flex space-x-4">
+                        <template x-if="post.id > 1">
+                            <a :href="`post.html?id=${post.id - 1}`" 
+                               class="text-yellow-400 hover:text-yellow-300 flex items-center group">
+                                <svg class="w-5 h-5 mr-2 transform transition-transform duration-300 group-hover:-translate-x-1" 
+                                     fill="none" 
+                                     stroke="currentColor" 
+                                     viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" 
+                                          stroke-linejoin="round" 
+                                          stroke-width="2" 
+                                          d="M15 19l-7-7 7-7">
+                                    </path>
+                                </svg>
+                                Previous Post
+                            </a>
+                        </template>
+                
+                        <template x-if="post.id < 3">
+                            <a :href="`post.html?id=${post.id + 1}`" 
+                               class="text-yellow-400 hover:text-yellow-300 flex items-center group">
+                                Next Post
+                                <svg class="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" 
+                                     fill="none" 
+                                     stroke="currentColor" 
+                                     viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" 
+                                          stroke-linejoin="round" 
+                                          stroke-width="2" 
+                                          d="M9 5l7 7-7 7">
+                                    </path>
+                                </svg>
+                            </a>
+                        </template>
+                    </div>
                 </div>
             </div>
             
@@ -170,7 +214,7 @@
                 title: 'The Future of Coworking Spaces in 2025',
                 excerpt: 'Discover how AI and automation are reshaping the coworking industry with innovative solutions and smart workspace management.',
                 content: `
-                    <div class="space-y-6">
+                    <div class="space-y-6 max-w-4xl mx-auto">
                         <h1 class="text-3xl font-bold text-yellow-400 mb-6">The Future of Coworking Spaces in 2025</h1>
                         
                         <p class="text-gray-300">The landscape of coworking spaces is rapidly evolving with technological advancements. Here's what we're seeing in 2025:</p>
@@ -210,7 +254,7 @@
                 title: 'Maximizing Workspace Efficiency',
                 excerpt: 'Learn practical tips and strategies for optimizing your coworking space layout and resource utilization.',
                 content: `
-                    <div class="space-y-6">
+                    <div class="space-y-6  max-w-4xl mx-auto">
                         <h1 class="text-3xl font-bold text-yellow-400 mb-6">Maximizing Workspace Efficiency</h1>
                         
                         <p class="text-gray-300">Optimizing workspace efficiency is crucial for modern coworking spaces. Here are key strategies:</p>
@@ -248,7 +292,7 @@
                 title: 'Building Community in Coworking Spaces',
                 excerpt: 'Effective strategies for fostering collaboration and networking in shared workspaces.',
                 content: `
-                    <div class="space-y-6">
+                    <div class="space-y-6  max-w-4xl mx-auto">
                         <h1 class="text-3xl font-bold text-yellow-400 mb-6">Building Community in Coworking Spaces</h1>
                         
                         <p class="text-gray-300">Creating a strong community is essential for coworking success. Here's how to build and maintain one:</p>
